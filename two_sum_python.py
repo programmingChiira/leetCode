@@ -1,4 +1,4 @@
-def twoSum(nums, target):
+def two_sum(nums, target):
         dictionary = {}
         for i, num in enumerate(nums, start=0):
             complement = target - num
@@ -9,5 +9,5 @@ def twoSum(nums, target):
 
 nums = [11, 2, 15, 7]
 target = 9
-result = twoSum(nums, target)
+result = two_sum(nums, target)
 print(result)
